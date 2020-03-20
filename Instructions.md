@@ -13,7 +13,7 @@ Once a bucket is created, we may enter our website files here. Either AWS Cli ca
 ### Step 03: Enable Static Website Hosting
 We have the website files in our bucket now. It's time to enable the static hosting. In order to do that, We have to select **Properties** tab inside the bucket and then select the **Static Website Hosting**. The index file should be navigated here.
 
-![sthosting](./images/sthosting.png)
+![sthosting](./images/sthost.png)
 
 ### Step 04: Setup IAM Bucket Policy
 To make the bucket contents publicly availabe we have to implement an IAM bucket policy. The policy can be found in the **Permissions** tab and under **Bucket Policy** sub tab. 
